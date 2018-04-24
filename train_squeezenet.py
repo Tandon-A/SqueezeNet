@@ -157,9 +157,9 @@ def train(sq_net,lr_rate,max_iter,out_classes,batch_size,tr_data_files,tr_labels
 
 #change model_dir to parent directory where model weights are to be saved. 
 model_dir = "squeeze\\model\\"
-#change tr_file path as produced by genearte_files.py file
+#change tr_file path as produced by generate_files.py file
 tr_file = "squeeze\\dataset\\train_file1.txt"
-#change val_file path as produced by genearte_files.py file
+#change val_file path as produced by generate_files.py file
 val_file = "squeeze\\dataset\\val_file1.txt"
 log_file = model_dir +"log_file.txt"
 input_shape = 227,227,3
